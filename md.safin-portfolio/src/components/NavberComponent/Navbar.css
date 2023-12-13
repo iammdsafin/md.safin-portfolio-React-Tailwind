@@ -1,0 +1,7 @@
+.navbar {
+  @apply fixed w-full bg-black bg-opacity-30 text-white p-5 backdrop-blur-md;
+}
+
+.navbar a {
+  @apply text-lg font-bold text-white hover:text-green-500 px-4;
+}
