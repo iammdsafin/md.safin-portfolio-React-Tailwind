@@ -1,13 +1,13 @@
 .navbar {
-  @apply fixed w-full bg-[rgba(0,0,0,0.3)] text-[white] backdrop-blur-[10px] p-[20px];
+  @apply fixed w-full bg-[rgba(0,0,0,0.3)] text-[white] backdrop-blur-[10px] p-[10px];
 }
 
 .navbar a {
-  @apply text-xl font-bold text-[white] transition-[color] duration-[0.15s] ease-[ease-in-out] px-4 hover:text-green-500;
+  @apply text-lg font-bold text-[white] transition-[color] duration-[0.15s] ease-[ease-in-out] px-4 hover:text-green-500;
 }
 
 .nav-link {
-  @apply relative inline-block no-underline text-[#333] mr-10;
+  @apply relative inline-block no-underline text-[#333] mr-2;
 }
 
 .nav-link span {
