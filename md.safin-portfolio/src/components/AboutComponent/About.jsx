@@ -6,7 +6,7 @@ const About = () => {
     useEffect(() => {
         const typed = new Typed("#hello-planet-earth-text", {
             strings: ["Hello Planet Earth!🌍", "It's me Safin, Let's explore! 💨"],
-            typeSpeed: 60,
+            typeSpeed: 50,
             backSpeed: 30,
             loop: true,
             showCursor: true,
