@@ -1,28 +1,27 @@
+import { Link as ScrollLink } from 'react-scroll';
 import "./Navbar.css";
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  
   return (
     <nav className="navbar">
       <div className="container mx-auto">
         <div className="flex justify-center items-center font-mono">
           <div>
-            <Link to="/about" className="nav-link">
+            <ScrollLink to="about" smooth={true} duration={500} className="nav-link">
               <span data-hover="About Me">About Me</span>
-            </Link>
+            </ScrollLink>
 
-            <Link to="/certification" className="nav-link">
+            <ScrollLink to="certification" smooth={true} duration={500} className="nav-link">
               <span data-hover="Certifications">Certifications</span>
-            </Link>
+            </ScrollLink>
 
-            <Link to="/experience_education" className="nav-link">
+            <ScrollLink to="experience_education" smooth={true} duration={500} className="nav-link">
               <span data-hover="Experience & Education">Experience & Education</span>
-            </Link>
+            </ScrollLink>
 
-            <Link to="/contact" className="nav-link">
+            <ScrollLink to="contact" smooth={true} duration={500} className="nav-link">
               <span data-hover="Connect With Me">Connect With Me</span>
-            </Link>
+            </ScrollLink>
           </div>
         </div>
       </div>
