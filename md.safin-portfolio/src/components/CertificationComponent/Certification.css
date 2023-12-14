@@ -1,0 +1,15 @@
+.item {
+  @apply flex justify-center items-center h-full;
+}
+
+.certificate-info {
+  @apply flex justify-center;
+}
+
+.certificate-img {
+  @apply w-auto h-auto block overflow-hidden rounded-[1%];
+}
+
+.certificate-title {
+  @apply text-[white] text-[3em] font-mono;
+}

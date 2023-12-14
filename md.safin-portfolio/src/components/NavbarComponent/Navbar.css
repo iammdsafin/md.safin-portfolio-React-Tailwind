@@ -26,3 +26,7 @@
 .nav-link:hover span[data-hover]::after {
   @apply opacity-100 translate-y-8;
 }
+
+.nav-link:hover {
+  cursor: pointer;
+}
