@@ -1,0 +1,28 @@
+.navbar {
+  @apply fixed w-full bg-[rgba(0,0,0,0.3)] text-[white] backdrop-blur-[10px] p-[10px];
+}
+
+.navbar a {
+  @apply text-lg font-bold text-[white] transition-[color] duration-[0.15s] ease-[ease-in-out] px-4 hover:text-green-500;
+}
+
+.nav-link {
+  @apply relative inline-block no-underline text-[#333] mr-2;
+}
+
+.nav-link span {
+  @apply relative inline-block transition-transform duration-[0.3s] ease-[ease];
+}
+
+.nav-link span[data-hover]::after {
+  @apply content-[attr(data-hover)] absolute opacity-0 translate-y-8 left-0 top-full; /* Increased gap */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover span {
+  @apply translate-y-[-60px];
+}
+
+.nav-link:hover span[data-hover]::after {
+  @apply opacity-100 translate-y-8;
+}
