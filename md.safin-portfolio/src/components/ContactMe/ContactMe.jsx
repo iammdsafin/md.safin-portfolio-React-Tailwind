@@ -44,6 +44,7 @@ function ContactMe() {
                     </div>
                 </div>
             </section>
+            {/* <p className="copyright-text">Copyright &copy; 2023 Md.Safin All rights reserved</p> */}
 
             {/* <div className="contact-toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="5000">
                 <div className="d-flex">

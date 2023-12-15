@@ -54,7 +54,7 @@
 }
 
 .social-icons {
-  @apply flex justify-center items-center flex-wrap mt-10;
+  @apply flex justify-center items-center flex-wrap mt-[50px] mb-[-20px];
 }
 
 .social-icons img {
@@ -64,3 +64,7 @@
 .social-icons img {
   @apply mx-[5px] my-0;
 }
+
+/* .copyright-text {
+  @apply text-center text-[white] font-mono pb-5 mt-[-40px] mb-[-20px];
+} */

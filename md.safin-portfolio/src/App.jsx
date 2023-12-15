@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Certificates from "./components/Certificates/Certificates";
 import ExperienceAndEducation from "./components/ExperienceAndEducation/ExperienceAndEducation";
 import ContactMe from "./components/ContactMe/ContactMe";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 
       <div id="contact-me">
         <ContactMe />
+        <Footer />
       </div>
 
     </div>
