@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import About from './components/About/About';
 import Certificates from "./components/Certificates/Certificates";
 import ExperienceAndEducation from "./components/ExperienceAndEducation/ExperienceAndEducation";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
 
       <div id="experience&education">
         <ExperienceAndEducation />
+      </div>
+
+      <div id="contact-me">
+        <ContactMe />
       </div>
 
     </div>
