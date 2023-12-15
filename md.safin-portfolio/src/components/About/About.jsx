@@ -6,13 +6,13 @@ const About = () => {
     useEffect(() => {
         const typed = new Typed("#hello-planet-earth-text", {
             strings: ["Hello Planet Earth!🌍", "It's me Safin, Let's explore! 💨"],
-            typeSpeed: 50,
-            backSpeed: 30,
+            typeSpeed: 60,
+            backSpeed: 40,
             loop: true,
             showCursor: true,
-            onStringTyped: function (arrayPos, self) {
-                if (arrayPos === 1) {
-                    self.stop();
+            onStringTyped: function (arrayIndex, typing) {
+                if (arrayIndex === 1) {
+                    typing.stop();
                 }
             },
         });
@@ -72,8 +72,8 @@ const About = () => {
                         <img src="icons/skill-icons/Git.svg" alt="Git" />
                         <img src="icons/skill-icons/GitLab-Light.svg" alt="GitLab-Light" />
                     </p>
-
                 </div>
+
             </div>
         </section>
     );
