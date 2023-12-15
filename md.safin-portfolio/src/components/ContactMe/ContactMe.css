@@ -50,5 +50,17 @@
 }
 
 .custom-submit-btn:hover {
-@apply  bg-red-600;
+  @apply bg-red-600;
+}
+
+.social-icons {
+  @apply flex justify-center items-center flex-wrap mt-10;
+}
+
+.social-icons img {
+  @apply w-[50px] h-[50px];
+}
+
+.social-icons img {
+  @apply mx-[5px] my-0;
 }

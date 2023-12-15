@@ -30,11 +30,22 @@ function ContactMe() {
 
                             <input type="submit" className="custom-submit-btn" value="Submit" id="submitButton" disabled />
                         </form>
+
+                    </div>
+
+                    <div className="social-icons">
+                        <a href="https://github.com/iammdsafin" target="_blank" rel="noopener">
+                            <img src="icons/social-icons/Github-Light.svg" class="img-fluid" alt="GitHub" />
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/md-safin/" target="_blank" rel="noopener">
+                            <img src="icons/social-icons/Linkedln-raw.svg" class="img-fluid" alt="Linkedln" />
+                        </a>
                     </div>
                 </div>
             </section>
 
-            <div className="contact-toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="5000">
+            {/* <div className="contact-toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="5000">
                 <div className="d-flex">
                     <div className="contact-toast-body">
                         <strong id="toastHeading" className="mr-auto"></strong>
@@ -46,7 +57,9 @@ function ContactMe() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+
+
         </>
     );
 }
