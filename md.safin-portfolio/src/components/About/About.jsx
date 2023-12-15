@@ -47,7 +47,7 @@ const About = () => {
                     </div>
 
                     <div className="about-image">
-                        <img src="/ahmedShafin-emoji.png" className="img-fluid" alt="svg image" />
+                        <img src="/Hero-Image.svg" className="img-fluid" alt="svg image" />
                     </div>
                 </div>
 
@@ -62,6 +62,7 @@ const About = () => {
                         <img src="icons/skill-icons/DotNet.svg" alt="DotNet" />
                         <img src="icons/skill-icons/PHP-Light.svg" alt="PHP-Light" />
                         <img src="icons/skill-icons/Laravel-Dark.svg" alt="Laravel-Dark" />
+                        <img src="icons/skill-icons/React-Dark.svg" alt="ReactJS-Dark" />
                         <img src="icons/skill-icons/NextJS-Dark.svg" alt="NextJS-Dark" />
                         <img src="icons/skill-icons/Azure-Light.svg" alt="Azure-Light" />
                         <img src="icons/skill-icons/MySQL-Dark.svg" alt="MySQL-Dark" />
