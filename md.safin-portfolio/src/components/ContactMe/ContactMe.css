@@ -12,7 +12,7 @@
 }
 
 .form-row {
-  @apply flex flex-wrap -mx-2.5;
+  @apply flex flex-wrap -mx-2.5 mr-0;
 }
 
 .form-group {
@@ -61,4 +61,12 @@
 
 .social-icons img {
   @apply mx-[5px] my-0;
+}
+
+.error-text-name {
+  @apply text-[red] font-mono ml-[-30px];
+}
+
+.error-text-email {
+  @apply text-[red] font-mono ml-[-15px];
 }
