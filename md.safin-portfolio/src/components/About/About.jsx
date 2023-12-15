@@ -72,6 +72,7 @@ const About = () => {
                         <img src="icons/skill-icons/Git.svg" alt="Git" />
                         <img src="icons/skill-icons/GitLab-Light.svg" alt="GitLab-Light" />
                     </p>
+
                 </div>
             </div>
         </section>

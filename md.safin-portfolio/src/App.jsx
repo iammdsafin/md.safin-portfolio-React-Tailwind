@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/NavbarComponent/Navbar";
-import About from './components/AboutComponent/About';
-import Certificates from "./components/CertificationComponent/Certificates";
+import Navbar from "./components/Navbar/Navbar";
+import About from './components/About/About';
+import Certificates from "./components/Certificates/Certificates";
+import ExperienceAndEducation from "./components/ExperienceAndEducation/ExperienceAndEducation";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
 
       <div id="certification">
         <Certificates />
+      </div>
+
+      <div id="experience&education">
+        <ExperienceAndEducation />
       </div>
 
     </div>
