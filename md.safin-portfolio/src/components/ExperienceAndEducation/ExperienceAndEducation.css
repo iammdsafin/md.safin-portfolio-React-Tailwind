@@ -1,0 +1,67 @@
+.experience-name {
+  @apply text-[white] text-[3em] font-[bold] pt-[150px] pb-5 font-mono;
+}
+
+.education-name {
+  @apply text-[white] text-[3em] font-[bold] pt-[150px] pb-5 font-mono;
+}
+
+.container {
+  @apply mx-auto;
+}
+
+.experience_education_row {
+  @apply flex flex-wrap;
+}
+
+.col-lg-6 {
+  @apply flex-[0_0_50%] max-w-[50%];
+}
+
+.experience_container {
+  @apply mb-[200px] p-5;
+}
+
+.education_container {
+  @apply mb-[200px] p-5;
+}
+
+.timeline-wrapper {
+  @apply relative text-white px-0 py-[22px] last:before:h-0 before:content-[""] before:w-[3px] before:h-full before:absolute before:left-[38px] font-mono;
+}
+
+.timeline-wrapper:before {
+  @apply bg-green-600;
+}
+
+.timeline-yr {
+  @apply absolute w-[75px] h-[75px] leading-[75px] text-center rounded-[100%] font-bold bg-green-600 font-mono;
+}
+
+.timeline-yr span {
+  @apply text-white text-base font-[bold] block leading-[75px]  font-mono;
+}
+
+.timeline-info {
+  @apply inline-block align-top max-w-[600px] ml-[6em] text-[22px] font-bold;
+}
+
+.group-info-education {
+  @apply text-[15px];
+}
+
+.group-info-experience {
+  @apply text-[15px];
+}
+
+.timeline-info small {
+  @apply text-white text-base font-[bold] inline-block align-middle ml-[15px];
+}
+
+.timeline-info h5 {
+  @apply text-[20px] font-normal;
+}
+
+.timeline-info h4 {
+  @apply text-[17px] font-normal;
+}

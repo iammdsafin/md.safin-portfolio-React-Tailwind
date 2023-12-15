@@ -1,0 +1,64 @@
+.contact-me-section {
+  @apply min-h-screen flex flex-col justify-center items-center text-center;
+}
+
+.contact-me-title {
+  @apply text-[white] text-[3em] mb-[30px];
+  font-family: "Roboto Mono", monospace;
+}
+
+.contact-me-form {
+  @apply w-[90%] max-w-[800px] bg-black mx-auto my-0 p-5 rounded-[10px];
+}
+
+.form-row {
+  @apply flex flex-wrap -mx-2.5;
+}
+
+.form-group {
+  @apply flex-[0_0_calc(50%_-_20px)] mb-[50px] mx-2.5;
+}
+
+.form-control {
+  @apply w-full text-white bg-[black] transition-[border-color] duration-[0.3s] ease-[ease-in-out] text-base p-2.5 rounded-[5px] border-2 border-solid border-white;
+}
+
+.form-control::placeholder {
+  @apply text-[#ccc] font-mono;
+}
+
+.form-control.message {
+  @apply w-[762px] -ml-2.5;
+}
+
+.contact-me-form .form-control:hover {
+  @apply border-green-700;
+}
+
+.contact-me-form .form-control:focus {
+  @apply border-red-600;
+  outline: none;
+}
+
+.error-message {
+}
+
+.custom-submit-btn {
+  @apply text-white font-[bold] cursor-pointer transition-all duration-[0.4s] ease-[ease] w-full px-5 py-2 rounded-[50px] border-0 bg-green-700 font-mono;
+}
+
+.custom-submit-btn:hover {
+  @apply bg-red-600;
+}
+
+.social-icons {
+  @apply flex justify-center items-center flex-wrap mt-[50px] mb-[-20px];
+}
+
+.social-icons img {
+  @apply w-[50px] h-[50px];
+}
+
+.social-icons img {
+  @apply mx-[5px] my-0;
+}

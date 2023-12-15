@@ -6,13 +6,13 @@ const About = () => {
     useEffect(() => {
         const typed = new Typed("#hello-planet-earth-text", {
             strings: ["Hello Planet Earth!🌍", "It's me Safin, Let's explore! 💨"],
-            typeSpeed: 50,
-            backSpeed: 30,
+            typeSpeed: 60,
+            backSpeed: 40,
             loop: true,
             showCursor: true,
-            onStringTyped: function (arrayPos, self) {
-                if (arrayPos === 1) {
-                    self.stop();
+            onStringTyped: function (arrayIndex, typing) {
+                if (arrayIndex === 1) {
+                    typing.stop();
                 }
             },
         });
@@ -47,7 +47,7 @@ const About = () => {
                     </div>
 
                     <div className="about-image">
-                        <img src="/ahmedShafin-emoji.png" className="img-fluid" alt="svg image" />
+                        <img src="/Hero-Image.svg" className="img-fluid" alt="svg image" />
                     </div>
                 </div>
 
@@ -62,6 +62,7 @@ const About = () => {
                         <img src="icons/skill-icons/DotNet.svg" alt="DotNet" />
                         <img src="icons/skill-icons/PHP-Light.svg" alt="PHP-Light" />
                         <img src="icons/skill-icons/Laravel-Dark.svg" alt="Laravel-Dark" />
+                        <img src="icons/skill-icons/React-Dark.svg" alt="ReactJS-Dark" />
                         <img src="icons/skill-icons/NextJS-Dark.svg" alt="NextJS-Dark" />
                         <img src="icons/skill-icons/Azure-Light.svg" alt="Azure-Light" />
                         <img src="icons/skill-icons/MySQL-Dark.svg" alt="MySQL-Dark" />
@@ -73,6 +74,7 @@ const About = () => {
                         <img src="icons/skill-icons/GitLab-Light.svg" alt="GitLab-Light" />
                     </p>
                 </div>
+
             </div>
         </section>
     );
